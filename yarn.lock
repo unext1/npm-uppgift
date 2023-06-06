@@ -1374,10 +1374,10 @@
   resolved "https://registry.yarnpkg.com/@laurysva/logger-package/-/logger-package-0.0.3.tgz#2b448130b8ae30f8e3efc9ff7db67c8a533e2191"
   integrity sha512-ckJAs9VvuKekskqkGkIFZRKF5ut+Tr3CIHHugQIQa4H58EmhS3V68ECp4PzlUGur6ac0aMJxfN1lLGu/z724ag==
 
-"@laurysva/my-calculator@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@laurysva/my-calculator/-/my-calculator-0.0.5.tgz#2f88dcce754a4150271313cf1f98d69f37dedbdf"
-  integrity sha512-rP6V/KPkBa1jc9c7b6DaL/rQL2JhrQs9FpCgix6DwUueA/6DVpftzo+CN/HPndss711zdubsWeiKZ8zUPxDvOw==
+"@laurysva/my-calculator@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@laurysva/my-calculator/-/my-calculator-0.1.2.tgz#112108fc44e5159ec9dde45ed2c2a8284537a6a6"
+  integrity sha512-q+kQvDbG/mDStho17iKS0nKOi8x9oSg+2S88lR7KyfbRkYbIFkPDKG5osJHZXIlfqWCstee8NX099qLGKRzgkA==
   dependencies:
     "@laurysva/logger-package" "^0.0.3"
 

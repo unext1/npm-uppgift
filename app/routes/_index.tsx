@@ -1,5 +1,11 @@
 import type { V2_MetaFunction } from "@remix-run/node";
-import { add, subtract, multiply, divide } from "@laurysva/my-calculator";
+import {
+  add,
+  subtract,
+  multiply,
+  divide,
+  modulo,
+} from "@laurysva/my-calculator";
 import { useState } from "react";
 
 export const meta: V2_MetaFunction = () => {
@@ -21,6 +27,8 @@ export default function Index() {
         return multiply(input1, input2);
       case "divide":
         return divide(input1, input2);
+      case "modulo":
+        return modulo(input1, input2);
     }
   };
 
@@ -40,6 +48,7 @@ export default function Index() {
         <option value="subtract">-</option>
         <option value="multiply">*</option>
         <option value="divide">/</option>
+        <option value="modulo">%</option>
       </select>
       <button onClick={() => calculateFunction()}>Calculate</button>
     </div>
