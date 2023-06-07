@@ -33,16 +33,22 @@ export default function Index() {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>Calculator</h1>
+      <label>Number 1</label>
       <input
         type="number"
         onChange={(e) => setInput1(parseInt(e.target.value))}
+        required={true}
       />
+      <label>Number 2</label>
+
       <input
         type="number"
         onChange={(e) => setInput2(parseInt(e.target.value))}
+        required={true}
       />
+      <label>Select an Operator</label>
       <select onChange={(e) => setSelect(e.target.value)}>
         <option value="add">+</option>
         <option value="subtract">-</option>
